@@ -1,7 +1,5 @@
-package com.example.testmockk
+package com.example.testmockk.problemsolver
 
-import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.MutableLiveData
 import kotlinx.coroutines.*
 
 class ProblemSolver {

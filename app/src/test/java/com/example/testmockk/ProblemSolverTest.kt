@@ -1,11 +1,11 @@
 package com.example.testmockk
 
+import com.example.testmockk.problemsolver.Problem
+import com.example.testmockk.problemsolver.ProblemSolver
 import com.google.common.truth.Truth.assertThat
 import io.mockk.*
 import kotlinx.coroutines.*
-import kotlinx.coroutines.android.awaitFrame
 import kotlinx.coroutines.test.resetMain
-import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
 import org.junit.jupiter.api.*
 
